@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>OVERFLOWING CONTENT</h1>
+    <!--Discusion of overflow-->
+    <div class="overflow">
+        <h2 id="verflow">overflow</h2>
+        <p>The overflow property tells the browser what to do if the content contained within a box is a larger than the
+            box is larger than the box itself. It can have one of two values:</p>
+    </div>
+    <!--Disscusion of html-->
+    <div class="html">
+        <h3 id="one">HTML
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chapter-13/overflow.html
+        </h3>
+        <p><span>&lt;h2&gt;</span> Fender Stratocaster <span>&lt;&sol;h2&gt;</span></p>
+        <p><span>&lt;p class:"one"&gt;</span>The Fender Stratocaster or "Strat" is one of the most popular electric
+            guitars of all time, and its design has been copied by many guitar makers. It was designed by leo...
+            <span>&lt;&sol;p&gt;</span></p>
+        <p><span>&lt;h2&gt;</span> Gisbon Les Paul <span>&lt;&sol;h2&gt;</span></p>
+        <p><span>&lt;p class:"two"&gt;</span> The Gibson Les Paul is a solid body electric guitar that was first sold in
+            1952. The Les Paul was designed by Ted McCarty... <span>&lt;&sol;p&gt;</span></p>
+    </div>
+    <!--Disscussion of hidden-->
+    <div class="hidden">
+        <h3 id="hide">hidden</h3>
+        <p>This property simply hides any extra content that does not fit in the box.</p>
+    </div>
+    <!--Disscusion of CSS-->
+    <div class="css">
+        <h3 id="csS">CSS</h3>
+        <p class="CsS">p.one {</p>
+        <p class="CsS">&nbsp;&nbsp;&nbsp;overflow: hidden }</p>
+        <p class="CsS">p.two {</p>
+        <p class="CsS">&nbsp;&nbsp;&nbsp;overflow: scroll;}</p>
+    </div>
+    <!--Discussion of scroll-->
+    <div class="scroll">
+        <h3 id="Scroll">scroll</h3>
+        <p>This property adds a scroll to the box so that user scroll to see the missing content.</p>
+    </div>
+    <div class="result">
+        <h3 id="Result">Result</h3>
+        <h2 id="ONE">Fender Stratocaster</h2>
+        <p class="one">The Fender Stratocaster or "Strat"
+            is one of the most popular electric guitars of
+            all time, and its design has been copied by many
+            guitar makers. It was designed by Leo...</p>
+        <h2 id="TWO">Gibson Les Paul</h2>
+        <p class="two">
+            The Gibson Les Paul is a solid body
+            electric guitar that was first sold in 1952.
+            The Les Paul was designed by Ted McCarty...</p>
+    </div>
+    <p class="right">On the left, you can see two boxes whose contents expand beyound their set dimensions. The first
+        example has the overflow property with a value of hidden. The second example has the overflow property with a
+        value of scroll.</p>
+</body>
+
+</html>
